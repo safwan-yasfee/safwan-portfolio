@@ -7,7 +7,6 @@ const projects = [
   { title: 'Dhaka Road & Drainage Issue Reporting System', type: 'Full-Stack Web Application', description: 'A role-based platform for reporting, assigning and resolving city road and drainage issues.', tech: ['Next.js', 'NestJS', 'Node.js', 'MySQL'], link: '#' },
   { title: 'AI / Machine Learning Research', type: 'Research', description: 'Research work around continuous-time sequence modeling, Neural ODEs, transformers and irregular SCADA telemetry.', tech: ['Python', 'Machine Learning', 'Neural ODE', 'Transformers'], link: '#' },
   { title: 'Flight Booking System', type: 'Web Application', description: 'A database-backed flight booking application with search, booking and management features.', tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'], link: '#' },
-  { title: 'Network VLAN & Router Configuration', type: 'Networking', description: 'A Cisco Packet Tracer network using VLAN segmentation, trunking and router-based inter-VLAN communication.', tech: ['Cisco Packet Tracer', 'VLAN', 'Routing'], link: '#' }
 ];
 
 const skills = {
@@ -171,7 +170,7 @@ export default function Home() {
           <Linkedin />
           <span>
             <small>LinkedIn</small>
-            sarker-fahim
+            Safwan Yasfee Fahim
           </span>
         </a>
       </div>
