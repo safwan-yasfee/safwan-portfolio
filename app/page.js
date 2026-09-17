@@ -5,7 +5,7 @@ import { Github, Linkedin, Facebook, Mail, Phone, Download, ExternalLink, Menu, 
 
 const projects = [
   { title: 'Dhaka Road & Drainage Issue Reporting System', type: 'Full-Stack Web Application', description: 'A role-based platform for reporting, assigning and resolving city road and drainage issues.', tech: ['Next.js', 'NestJS', 'Node.js', 'MySQL'], link: '#' },
-  { title: 'AI / Machine Learning Research', type: 'Research', description: 'Research work around continuous-time sequence modeling, Neural ODEs, transformers and irregular SCADA telemetry.', tech: ['Python', 'Machine Learning', 'Neural ODE', 'Transformers'], link: '#' },
+  { title: 'LSTM-Based Short-Term Solar Irradiance & Wind Speed Forecasting', type: 'Research', description: 'Research project on short-term solar irradiance and wind speed forecasting for coastal Bangladesh using LSTM-based deep learning models and NASA POWER weather data.', tech: ['Python', 'TensorFlow', 'Keras', 'PyTorch','Jupyter Notebook','NASA POWER Dataset'], link: '#' },
   { title: 'Flight Booking System', type: 'Web Application', description: 'A database-backed flight booking application with search, booking and management features.', tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'], link: '#' },
 ];
 
@@ -122,8 +122,8 @@ export default function Home() {
       </div>
       <div className="publication">
         <p className="status">Research in progress</p>
-        <h3>Continuous-Time ODE Transformer Framework for Irregular SCADA Telemetry</h3>
-        <p>Research direction focused on asynchronous and irregular renewable-energy telemetry, Neural ODEs, self-supervised masked trajectory reconstruction and transformer-based representations.</p>
+        <h3>LSTM-Based Short-Term Solar Irradiance & Wind Speed Forecasting</h3>
+        <p>Research project on short-term solar irradiance and wind speed forecasting for coastal Bangladesh using LSTM-based deep learning models and NASA POWER weather data.</p>
         <div className="tags">
           <span>Neural ODE</span>
           <span>Time-Series</span>
