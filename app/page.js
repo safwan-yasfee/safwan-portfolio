@@ -4,16 +4,16 @@ import { useState } from 'react';
 import { Github, Linkedin, Facebook, Mail, Phone, Download, ExternalLink, Menu, X, ArrowUpRight } from 'lucide-react';
 
 const projects = [
-  { title: 'Dhaka Road & Drainage Issue Reporting System', type: 'Full-Stack Web Application', description: 'A role-based platform for reporting, assigning and resolving city road and drainage issues.', tech: ['Next.js', 'NestJS', 'Node.js', 'MySQL'], link: '#' },
-  { title: 'LSTM-Based Short-Term Solar Irradiance & Wind Speed Forecasting', type: 'Research', description: 'Research project on short-term solar irradiance and wind speed forecasting for coastal Bangladesh using LSTM-based deep learning models and NASA POWER weather data.', tech: ['Python', 'TensorFlow', 'Keras', 'PyTorch','Jupyter Notebook','NASA POWER Dataset'], link: '#' },
-  { title: 'Flight Booking System', type: 'Web Application', description: 'A database-backed flight booking application with search, booking and management features.', tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'], link: '#' },
+  { title: 'Dhaka Road & Drainage Issue Reporting System', type: 'Full-Stack Web Application', description: 'A role-based platform for reporting, assigning and resolving city road and drainage issues.', tech: ['Next.js', 'NestJS', 'Node.js', 'MySQL'], Frontend: 'https://github.com/safwan-yasfee/Dhaka-Road-Draining-Issue-Reporting-System_Frontend', Backend: 'https://github.com/safwan-yasfee/Dhaka-Road-Draining-Issue-Reporting-System_Backend' },
+  { title: 'Dhaka Road & Drainage Issue Reporting System', type: 'Full-Stack Web Application', description: 'A role-based platform for reporting, assigning and resolving city road and drainage issues.', tech: ['Next.js', 'NestJS', 'Node.js', 'MySQL'], Frontend: 'https://github.com/safwan-yasfee/Dhaka-Road-Draining-Issue-Reporting-System_Frontend', Backend: '' },
+  { title: 'Online Ticket Booking System', type: 'Web Application', description: 'A database-backed flight booking application with search, booking and management features.', tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'], link: 'https://github.com/safwan-yasfee/online_ticket_booking_system' },
 ];
 
 const skills = {
   'Programming': ['Python', 'C#', 'JavaScript', 'PHP', 'R'],
   'Web': ['Next.js', 'Node.js', 'NestJS', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'MySQL', 'Microsoft SQL Server', 'PostgreSQL'],
   'Data & AI': ['Data Analytics', 'Machine Learning', 'Data Mining', 'Data Warehousing', 'EDA'],
-  'Tools': ['Git/GitHub', 'Visual Studio Code', 'Postman', 'Figma', 'Notion', 'Cisco Packet Tracer']
+  'Tools': ['Git/GitHub', 'Visual Studio Code', 'Postman', 'Figma', 'Notion', 'Jupyter Notebook', 'Google Colab', 'Tableau', 'Power BI'],
 };
 
 export default function Home() {
@@ -125,13 +125,27 @@ export default function Home() {
         <h3>LSTM-Based Short-Term Solar Irradiance & Wind Speed Forecasting</h3>
         <p>Research project on short-term solar irradiance and wind speed forecasting for coastal Bangladesh using LSTM-based deep learning models and NASA POWER weather data.</p>
         <div className="tags">
-          <span>Neural ODE</span>
+          <span>LSTM</span>
           <span>Time-Series</span>
           <span>Self-Supervised Learning</span>
-          <span>SCADA</span>
+          <span>NASA POWER Dataset</span>
+        </div>
+         <div className="publication">
+          <p className="status">Co-authored paper</p>
+          <h3>AI-Based Student Performance Prediction and Academic Risk Analysis System</h3>
+          <p>Co-developed an early-warning system that classifies university students as academically safe or at-risk from early-to-mid-semester data. Built and compared Logistic Regression, Random Forest, XGBoost and CatBoost models combined into a calibrated soft-voting ensemble, using Odds Ratios and TreeSHAP to explain which coursework and lifestyle factors drive risk. The final system reached 80% accuracy, 83% recall and 0.886 ROC-AUC on a held-out test set of 1,000 students.</p>
+          <div className="tags">
+            <span>Machine Learning</span>
+            <span>Ensemble Learning</span>
+            <span>XGBoost</span>
+            <span>CatBoost</span>
+            <span>Explainable AI (SHAP)</span>
+            <span>Educational Data Mining</span>
+          </div>
         </div>
       </div>
     </section>
+    
 
     <section id="contact" className="section contact">
       <p className="eyebrow">06 — Contact</p>
